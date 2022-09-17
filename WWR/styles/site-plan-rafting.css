@@ -3,7 +3,6 @@
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Fira+Sans:wght@300&display=swap');
-@import url('http://fonts.cdnfonts.com/css/straightler');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -13,7 +12,7 @@ Fonts are separated by a & */
   --accent2-color: #0b161d;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Straightler";
+  --heading-font: "Dela Gothic One";
   --paragraph-font: Fira Sans, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
