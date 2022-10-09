@@ -6,29 +6,34 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #dc1a22   ;
-  --secondary-color: #f7f7f7 ;
-  --accent1-color: #0e0607;
-  --accent2-color: #f7cfd1;
+  --primary-color: #a9221b   ;
+  --secondary-color: #b8b8bf ;
+  --accent1-color: #0a0706;
+  --accent2-color: #867a76;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Chango";
   --paragraph-font: "Roboto Condensed", Helvetica, sans-serif;
 
+/*https://coolors.co/0a0706-a9221b-1e0b08-b8b8bf-867a76*/
+
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #dc1a22;  /* headlines on a white background */ 
-  --headline-color-on-color: #0e0607; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #0e0607; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #0e0607; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #f7cfd1  ;
-  --nav-link-color: #0e0607;
-  --nav-background-color: #f7cfd1;
-  --nav-hover-link-color: #f7f7f7;
-  --nav-hover-background-color: #0e0607;
+  --headline-color-on-white: #a9221b;  /* headlines on a white background */ 
+  --headline-color-on-color: #0a0706; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #0a0706; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #0a0706; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #b8b8bf  ;
+  --nav-link-color: #0a0706;
+  --nav-background-color: #b8b8bf;
+  --nav-hover-link-color: #867a76;
+  --nav-hover-background-color: #0a0706;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
+img{
+  max-width: 100%;
+}
 body {
   max-width: 1200px;
   margin: 0 auto;
