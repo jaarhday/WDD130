@@ -225,9 +225,7 @@ footer p a:hover {
     justify-content: space-around;
     font-size: auto;
 }
-.faq1, .faq1img{
-    padding-top: 40px;
-}
+
 .faq1{
     grid-column: 2/4;
     grid-row: 2/3;
