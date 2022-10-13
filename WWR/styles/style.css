@@ -224,6 +224,7 @@ footer p a:hover {
 .faq1, .faq2, .faq3, .faq4, .faqH{
     justify-content: space-around;
     font-size: auto;
+    padding: 5px;
 }
 
 .faq1{
