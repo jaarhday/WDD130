@@ -1,3 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Roboto+Condensed:wght@300&display=swap');
+root {
+    --primary-color: #a9221b   ;
+    --secondary-color: #b8b8bf ;
+    --accent1-color: #0a0706;
+    --accent2-color: #867a76;
+  
+    --heading-font: "Chango";
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+}
+
+/**********************HEADER**********************/
+header{
+    background-color:#a9221b;
+    color: #0a0706;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 100px;
+}
+#logo_link{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    padding-top: 50px;
+}
+nav{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+nav a{
+    font-weight: bolder;
+    text-align: center;
+    color: #0a0706;
+    text-decoration: none;
+    padding: 30px;
+}
+.logo{
+    width: 100%;
+}
+/****************************BODY****************************/
 img{
     max-width: 100%;
 }
@@ -5,6 +51,97 @@ img{
     width: 80px;
     padding-top: 10px;
 }
-.logo{
-    width: 250px;
+
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
 }
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 30px 50px 30px;
+}
+#hero-img{
+    grid-column: 1/2;
+    border: 10px solid #867a76;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+#hero-msg{
+    grid-column: 2/3;
+    padding: 130px 50px 50px 50px;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    justify-self: center;
+}
+.home-title{
+    font-family: "Chango", Helvetica, sans-serif;
+    font-size: 2em;
+    color: #0b161d;
+    margin-top: 10px;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 30px 0px 30px;
+}
+#cover{
+    grid-column: 1/2;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    padding: 30px;
+}
+#original{
+    grid-column: 2/3;
+    font-family: "Roboto Condensed", Helvetica, sans-serif;
+    padding: 30px;
+}
+.box-head{
+    text-align: center;
+    font-family: "Chango", Helvetica, sans-serif;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: #0a0706;
+    text-decoration: none;
+    padding: 45px;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*****************************FOOTER*****************************/
+footer{
+    background-color: #a9221b;
+    color: #0a0706;
+    padding: 25px 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3{
+    color: #0a0706;
+}
+footer a{
+    color: #0a0706;
+    text-decoration: none;
+}
+footer a:hover{
+    background-color: #a9221b;
+    color: #0a0706;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer .social img{
+    padding-top: 15px;
+}   
+footer .social img:hover{
+    padding-top: 15px;
+    background-color: #867a76;
+    color: #0a0706;
+}   
+footer p a:hover {
+    text-decoration: underline;
+}    
